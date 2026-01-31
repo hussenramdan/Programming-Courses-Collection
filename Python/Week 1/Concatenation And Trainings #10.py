@@ -1,0 +1,20 @@
+#---------------------------
+# -- Concatenation --
+#---------------------------
+
+msg = "I Love"
+lang = "Python"
+print(msg + " " + lang)
+
+
+full = msg + " " + lang 
+print(full)
+
+a = "First \
+Second \
+Third"
+
+b = "A \
+B \
+c"
+print(a + "\n" + b)
