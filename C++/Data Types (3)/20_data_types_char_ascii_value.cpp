@@ -58,11 +58,11 @@ int main()
 // Character To Ascll
 int main()
 {
-   int Character;
-   cout << "Enter Character Code: ";
-   cin >> Character;
+    int Character;
+    cout << "Enter Character Code: ";
+    cin >> Character;
 
-   cout << char(Character) << "\n";
+    cout << char(Character) << "\n";
 
-   return 0;
+return 0;
 }

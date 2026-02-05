@@ -36,10 +36,6 @@
     ------- [3] The Number Of Bits
 */
 
-
-
-
-
 #include <iomanip>
 #include <iostream>
 using namespace std;

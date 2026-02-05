@@ -1,5 +1,5 @@
 /*
-    Primitive Data Types
+Primitive Data Types
     - Float => Floating Point Number
     --- Test Integer Value In Float Variable
     --- We Make Sure Its float Not Double By Adding Suffix "f" or "F"
@@ -16,7 +16,7 @@ using namespace std;
 int main()
 {
     int num = 10;
-    num = 20.5
+    num = 20.5;
     cout << sizeof(num);    // 4
     cout << num << endl;    // 20
 
@@ -29,6 +29,6 @@ int main()
     cout << sizeof(fl);     // 4
     cout << fl << endl;     // 20
 
-    auot mix = 10.f; 
+    auto mix = 10.f; 
     return 0 ;
 }
