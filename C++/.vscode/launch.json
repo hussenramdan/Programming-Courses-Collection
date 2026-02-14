@@ -1,6 +1,15 @@
 {
   "version": "0.2.0",
   "configurations": [
+  
+    {
+      "type": "android",
+      "request": "attach",
+      "name": "Android Attach",
+      "appSrcRoot": "${workspaceRoot}/app/src/main",
+      "adbPort": 5037,
+      "processId": "${command:PickAndroidProcess}"
+    },
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -8,8 +17,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/husse/Desktop/programming_courses/C++/Control_flow(5)",
-      "program": "c:/Users/husse/Desktop/programming_courses/C++/Control_flow(5)/build/Debug/outDebug",
+      "cwd": "d:/programming/Cs50/Week 4",
+      "program": "d:/programming/Cs50/Week 4/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

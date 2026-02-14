@@ -8,24 +8,30 @@
     --- Void With Retrun ...! Why ?
 */
 
-    void calc(int n1, n2)
-    {
-        cout << "Return Done";
-        return 10;
-        
-    }
-
-    int cals()
-    {
-
-    }
-
 #include <iostream>
 using namespace std;
 
+    // void calc(int n1, int n2)
+    // {
+    //     cout << n1 + n2 << endl;
+            // return 0;
+    // }
+
+    int calc(int n1 , int n2)
+    {
+            cout << "Operation Is Done\n";
+            return n1 + n2; 
+            cout << "Will Not Show";
+    }
+
+
 int main()
 {
-
+    
+    // calc(10,20);
+    int result = calc(10,20);
+    cout << result * 5 << endl;
+    cout << result + 20;
 
 
     return 0;
